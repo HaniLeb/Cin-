@@ -59,13 +59,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.7s ease-in-out;
 }
 
 .type-btn:hover {
     cursor: pointer;
     box-shadow: 10px 15px 10px 2px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
-    transition: all 0.7s ease-in-out;
 }
 
 /* Fin Type */
@@ -91,12 +91,12 @@ h1 {
     padding: 10px;
     border-radius: 0.5rem;
     box-shadow: 1px 5px 1px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.7s ease-in-out;
 }
 
 .service:hover {
     cursor: pointer;
     transform: scale(1.05);
-    transition: all 0.7s ease-in-out;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -122,12 +122,12 @@ h1 {
     background: rgba(255, 255, 255, 0.8);
 
     box-shadow: -10px 10px 5px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.7s ease-in-out;
 }
 
 .movie:hover {
     cursor: pointer;
     transform: scale(1.05);
-    transition: all 0.7s ease-in-out;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
 }
 
